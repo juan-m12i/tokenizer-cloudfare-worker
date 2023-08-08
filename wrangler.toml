@@ -1,0 +1,7 @@
+name = "tokenizer-cloudfare-worker"
+main = "src/index.js"
+compatibility_date = "2023-04-23"
+
+[[rules]]
+type = "CompiledWasm"
+globs = [ "**/*.wasm" ]
